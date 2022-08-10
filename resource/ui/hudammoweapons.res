@@ -4,41 +4,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"999999999999999999999999999"
-		"xpos_minmode"	"28"
-		"ypos"			"999999999999999999999999"
-		"ypos_minmode"	"7"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"	
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"xpos"			"99999"	
 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"999999"
-		"xpos_minmode"	"28"
-		"ypos"			"999999"
-		"ypos_minmode"	"7"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"xpos"			"99999"	
 	}
 	"AmmoInclip"
 	{
@@ -57,7 +29,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-e"	
+		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
 		
 	}		
@@ -132,7 +104,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"QUALY16"
-		"fgcolor"		"White"
+		"fgcolor_override"		"White"
 		"xpos"			"-53"
 		"ypos"			"-15"
 		"zpos"			"5"
@@ -145,7 +117,6 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
-		
 	}	
 	"AmmoNoClipShadow"
 	{
